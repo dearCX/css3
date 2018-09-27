@@ -1,0 +1,44 @@
+div{
+  height: 300px;
+  background: url(./../img/puppy.jpg) no-repeat;
+  border:1px dotted #eee;
+}
+#bg1{
+  width: 100%;
+  background-size: 100% 100%;
+  border:1px dotted #eee;
+}
+#bg2{
+  width: 50%;
+  margin-top: 20px;
+  background-size: 100% 100%;
+}
+#bg3{
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-size: 100% 100%;
+  background-origin: content-box;
+}
+#bg4{
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-size: 100% 100%;
+  background-origin: border-box;
+}
+#bg5{
+  width: 50%;
+  padding: 20px;
+  margin: 20px;
+  background-size: 100% 100%;
+  background-origin: padding-box;
+}
+#bg6{
+  background-image: url('./../img/puppy.jpg'),url('./../img/caoyuan.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  /* background-size: 100% 100%; */
+}
